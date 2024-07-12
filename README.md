@@ -30,7 +30,7 @@ No external requirements needed (Only the built-in json module)
 
 1. 克隆本仓库。
 2. 进入仓库目录。
-3. 将已解包的render material放在一个文件夹中，这个文件夹应该看起来像 ``/xxx/yyy/zzz/RendererSrc/``。在``RenderSrc``文件夹下应该有各个渲染器的单独目录，比如 ``Actor``、``ActorBanner``、``ActorBannerForwardPBR``。
+3. 将已解包的renderer material放在一个文件夹中，这个文件夹应该看起来像 ``/xxx/yyy/zzz/RendererSrc/``。在``RenderSrc``文件夹下应该有各个渲染器的单独目录，比如 ``Actor``、``ActorBanner``、``ActorBannerForwardPBR``。
 4. 执行 ``python main.py``
 5. 程序显示 ``Workdir: ``，输入之前创建的路径 ``/xxx/yyy/zzz/RendererSrc/``。
 6. 回车，等待程序运行。
